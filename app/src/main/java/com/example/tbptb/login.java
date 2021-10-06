@@ -18,4 +18,9 @@ public class login extends AppCompatActivity {
         startActivity(new Intent(this, MainActivity.class));
         finish();
     }
+
+    public void buat(View view) {
+        startActivity(new Intent(this, signup.class));
+        finish();
+    }
 }
