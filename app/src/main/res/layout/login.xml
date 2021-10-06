@@ -18,7 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.09" />
+        app:layout_constraintVertical_bias="0.158" />
 
     <TextView
         android:id="@+id/textView5"
@@ -34,42 +34,44 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.202"
+        app:layout_constraintVertical_bias="0.278"
         tools:ignore="TextContrastCheck" />
 
     <EditText
         android:id="@+id/editTextNumber"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="12"
-        android:hint="NIM/NIP"
+        android:layout_height="50dp"
+        android:background="@drawable/form"
+        android:ems="13"
+        android:hint="  NIM/NIP"
         android:importantForAutofill="no"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.427"
+        app:layout_constraintVertical_bias="0.447"
         tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="12"
-        android:hint="Password"
+        android:layout_height="50dp"
+        android:ems="13"
+        android:hint="  Password"
+        android:background="@drawable/form"
         android:importantForAutofill="no"
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.524"
+        app:layout_constraintVertical_bias="0.546"
         tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck,TextContrastCheck" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="280dp"
+        android:layout_width="250dp"
         android:layout_height="48dp"
         android:backgroundTint="#57B894"
         android:fontFamily="@font/rm"
@@ -78,28 +80,28 @@
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.686"
+        app:layout_constraintVertical_bias="0.711"
         tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck,TextContrastCheck" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="280dp"
+        android:layout_width="250dp"
         android:layout_height="48dp"
         android:backgroundTint="#000000"
         android:fontFamily="@font/rm"
-        android:text="Back"
         android:onClick="kembali"
+        android:text="Back"
         android:textColor="#FFFFFF"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.786"
+        app:layout_constraintVertical_bias="0.796"
         tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
