@@ -1,24 +1,18 @@
 package com.example.tbptb;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-public class dashboard extends AppCompatActivity {
+public class pinjam extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.dashboard);
+        setContentView(R.layout.peminjaman_gedung);
     }
-
-    public void home(View view) {
-        startActivity(new Intent(this, dashboard.class));
-        finish();
-    }
-
     public void chat(View view) {
         startActivity(new Intent(this, chat.class));
         finish();
@@ -26,6 +20,11 @@ public class dashboard extends AppCompatActivity {
 
     public void pinjam(View view) {
         startActivity(new Intent(this, pinjam.class));
+        finish();
+    }
+
+    public void dashboard(View view) {
+        startActivity(new Intent(this, dashboard.class));
         finish();
     }
 
@@ -38,9 +37,9 @@ public class dashboard extends AppCompatActivity {
         startActivity(new Intent(this, bookmark.class));
         finish();
     }
-
-    public void profil(View view) {
-        startActivity(new Intent(this, profil.class));
+    public void pesan(View view) {
+        startActivity(new Intent(this, pesan.class));
         finish();
     }
+
 }

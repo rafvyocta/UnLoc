@@ -20,6 +20,15 @@
         <activity android:name=".login"></activity>
         <activity android:name=".signup"></activity>
         <activity android:name=".dashboard"></activity>
+        <activity android:name=".chat"></activity>
+        <activity android:name=".pinjam"></activity>
+        <activity android:name=".bookmark"></activity>
+        <activity android:name=".fasilitas"></activity>
+        <activity android:name=".profil"></activity>
+        <activity android:name=".pesan"></activity>
+        <activity android:name=".gantipassword"></activity>
+        <activity android:name=".bookmark_data"></activity>
+
     </application>
 
 </manifest>

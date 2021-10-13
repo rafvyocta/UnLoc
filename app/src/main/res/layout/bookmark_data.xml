@@ -69,19 +69,18 @@
     <View
         android:id="@+id/divider13"
         android:layout_width="403dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="348dp"
-        android:layout_marginBottom="382dp"
+        android:layout_height="1dp"
         android:background="?android:attr/listDivider"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.479"
+        tools:layout_editor_absoluteX="1dp" />
 
     <ImageView
         android:id="@+id/imageView65"
         android:layout_width="43dp"
         android:layout_height="39dp"
+        android:onClick="balik"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.043"
@@ -94,7 +93,7 @@
         android:id="@+id/textView38"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bookmark Lokasi"
+        android:text="Bookmark Gedung"
         android:textColor="#FFFFFF"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
