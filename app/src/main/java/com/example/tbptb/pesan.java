@@ -13,4 +13,14 @@ public class pesan extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pemesanan_gedung);
     }
+    public void backpinjam(View view) {
+        startActivity(new Intent(this, pinjam.class));
+        finish();
+    }
+
+    public void simpan(View view) {
+        startActivity(new Intent(this, pinjam.class));
+        finish();
+    }
+
 }

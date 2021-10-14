@@ -18,4 +18,5 @@ public class bookmark_data extends AppCompatActivity {
         startActivity(new Intent(this, bookmark.class));
         finish();
     }
+
 }
