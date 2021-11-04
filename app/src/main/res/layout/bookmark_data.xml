@@ -30,7 +30,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView60"
         app:layout_constraintVertical_bias="0.021"
-        app:srcCompat="@drawable/abc_vector_test" />
+        app:srcCompat="@drawable/abc_vector_test"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textView38"
@@ -50,8 +51,10 @@
         android:id="@+id/nvSavebookmark"
         android:layout_width="409dp"
         android:layout_height="658dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="71dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView60"
         tools:listitem="@layout/bookmark_rute" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
