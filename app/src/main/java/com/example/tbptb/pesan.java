@@ -19,7 +19,7 @@ public class pesan extends AppCompatActivity {
     }
 
     public void simpan(View view) {
-        startActivity(new Intent(this, pinjam.class));
+        startActivity(new Intent(this, detail_pesan.class));
         finish();
     }
 
