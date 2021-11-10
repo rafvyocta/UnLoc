@@ -21,11 +21,11 @@
             android:layout_marginTop="8dp"
             android:text="Lokasi disimpan"
             android:textColor="@color/black"
-            app:layout_constraintStart_toStartOf="@+id/textBrute"
-            app:layout_constraintTop_toBottomOf="@+id/textBrute" />
+            app:layout_constraintStart_toStartOf="@+id/textBookmark"
+            app:layout_constraintTop_toBottomOf="@+id/textBookmark" />
 
         <TextView
-            android:id="@+id/textBrute"
+            android:id="@+id/textBookmark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -53,9 +53,9 @@
             android:layout_width="31dp"
             android:layout_height="25dp"
             android:layout_marginEnd="24dp"
-            app:layout_constraintBottom_toBottomOf="@+id/textBrute"
+            app:layout_constraintBottom_toBottomOf="@+id/textBookmark"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/textBrute"
+            app:layout_constraintTop_toTopOf="@+id/textBookmark"
             app:srcCompat="@android:drawable/btn_star" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
