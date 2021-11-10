@@ -34,6 +34,8 @@
         <activity android:name=".fasilitaslapangan"></activity>
         <activity android:name=".fasilitaskantin"></activity>
         <activity android:name=".fasilitasumumlain"></activity>
+        <activity android:name=".detail_pesan"></activity>
+        <activity android:name=".chat_1"></activity>
 
     </application>
 

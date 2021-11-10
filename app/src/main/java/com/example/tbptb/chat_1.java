@@ -39,4 +39,9 @@ public class chat_1 extends AppCompatActivity {
         startActivity(new Intent(this, bookmark.class));
         finish();
     }
+
+    public void back(View view) {
+        startActivity(new Intent(this, chat.class));
+        finish();
+    }
 }
