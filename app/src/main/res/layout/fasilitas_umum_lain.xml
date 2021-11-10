@@ -20,12 +20,12 @@
         android:id="@+id/textView54"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Info Fasilitas"
+        android:text="Fasilitas Umum Lain"
         android:textColor="#FFFFFF"
         android:textSize="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.358"
+        app:layout_constraintHorizontal_bias="0.682"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.018" />
@@ -59,12 +59,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.886"
+        app:layout_constraintVertical_bias="0.918"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
         android:id="@+id/editTextTextPersonName10"
-        android:layout_width="400dp"
+        android:layout_width="379dp"
         android:layout_height="30dp"
         android:background="@drawable/form"
         android:ems="10"
@@ -74,20 +74,19 @@
         android:textSize="13dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.174"
+        app:layout_constraintVertical_bias="0.175"
         tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/textView55"
-        android:layout_width="150dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Pilihan Fasilitas"
+        android:text="Pilihan Fasilitas Umum Lain"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.146" />
@@ -96,8 +95,12 @@
         android:id="@+id/imageView81"
         android:layout_width="413dp"
         android:layout_height="234dp"
-        app:srcCompat="@drawable/audit"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="166dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.344"
+        app:srcCompat="@drawable/audit" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
