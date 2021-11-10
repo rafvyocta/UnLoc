@@ -28,6 +28,12 @@
         <activity android:name=".pesan"></activity>
         <activity android:name=".gantipassword"></activity>
         <activity android:name=".bookmark_data"></activity>
+        <activity android:name=".fasilitasgedungkuliah"></activity>
+        <activity android:name=".fasilitasgedungfakultas"></activity>
+        <activity android:name=".fasilitasjurusan"></activity>
+        <activity android:name=".fasilitaslapangan"></activity>
+        <activity android:name=".fasilitaskantin"></activity>
+        <activity android:name=".fasilitasumumlain"></activity>
 
     </application>
 

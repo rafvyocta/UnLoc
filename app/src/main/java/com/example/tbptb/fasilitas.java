@@ -38,4 +38,29 @@ public class fasilitas extends AppCompatActivity {
         startActivity(new Intent(this, bookmark.class));
         finish();
     }
+
+    public void fasilitasgedungkuliah(View view) {
+        startActivity(new Intent(this, fasilitasgedungkuliah.class));
+        finish();
+    }
+    public void fasilitasgedungfakultas(View view) {
+        startActivity(new Intent(this, fasilitasgedungfakultas.class));
+        finish();
+    }
+    public void fasilitasjurusan(View view) {
+        startActivity(new Intent(this, fasilitasjurusan.class));
+        finish();
+    }
+    public void fasilitaslapangan(View view) {
+        startActivity(new Intent(this, fasilitaslapangan.class));
+        finish();
+    }
+    public void fasilitaskantin(View view) {
+        startActivity(new Intent(this, fasilitaskantin.class));
+        finish();
+    }
+    public void fasilitasumumlain(View view) {
+        startActivity(new Intent(this, fasilitasumumlain.class));
+        finish();
+    }
 }
